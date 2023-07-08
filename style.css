@@ -32,6 +32,38 @@
     left: 0;
 }
 
+.landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+    gap: 100px;
+}
+
+#title {
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 70px;
+}
+
+#pg {
+        font-size: 24px;
+        width: 400px;
+        text-align: center;
+}
+
+.nav-bar #logo:hover {
+    width:80px;
+}
+
+#carti {
+    width:450px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-left: 40px;
+}
 
 
 body {
