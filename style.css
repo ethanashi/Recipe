@@ -15,6 +15,10 @@
     gap: 40px;
 }
 
+
+
+
+
 .nav-bar a {
     font-family: 'Gloria Hallelujah', cursive;
     text-decoration: none;
@@ -22,14 +26,25 @@
     color:black;
 }
 
+.nav-bar #a {
+    margin-top: 0px;
+}
+
 .nav-bar a:hover {
     font-size: 25px;
 }
 
+.nav-bar #a {
+    margin-bottom:50px;
+    position: absolute;
+    left: 0;
+    transition: width 0.3s ease;
+}
 
 #logo {
     position: absolute;
     left: 0;
+    transition: width 0.3s ease;
 }
 
 .landing {
@@ -65,14 +80,40 @@
     margin-left: 40px;
 }
 
+#option-tag {
+    margin-top: 40px;
+    font-family:'Gloria Hallelujah', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.recipes {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.recipe-images {
+    width: auto;
+    height: 200px;
+    transition: height 0.3s ease;
+
+
+}
+
+.recipe-images:hover {
+    width: auto;
+    height: 250px;
+}
+
 
 body {
     height: 100vh; /* Cover full viewport height */
-    margin: 0; /* Remove default margin */
-    background: #FFFFFF; /* Fallback color for older browsers */
-    background: -moz-linear-gradient(135deg, #FFFFFF 0%, #000000 100%); /* Firefox */
-    background: -webkit-linear-gradient(135deg, #FFFFFF 0%, #000000 100%); /* Chrome, Safari */
-    background: linear-gradient(135deg, #FFFFFF 0%, #000000 100%); /* Standard syntax */
-    background-size: cover; /* Cover the entire body area */
-    background-repeat: no-repeat; /* Prevent background repeating */
+margin: 0; /* Remove default margin */
+background: #FFFFFF; /* Fallback color for older browsers */
+background: -moz-linear-gradient(90deg, #FFFFFF 0%, #000000 100%); /* Firefox */
+background: -webkit-linear-gradient(90deg, #FFFFFF 0%, #000000 100%); /* Chrome, Safari */
+background: linear-gradient(90deg, #FFFFFF 0%, #000000 100%); /* Standard syntax */
+background-size: 100% 100%; /* Adjust background size */
+background-repeat: repeat; /* Make the background repeat */
 }

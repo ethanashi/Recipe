@@ -22,25 +22,146 @@
     color:black;
 }
 
+.nav-bar #a {
+    margin-top: 0px;
+}
+
 .nav-bar a:hover {
     font-size: 25px;
 }
 
+.nav-bar #a {
+    margin-bottom:50px;
+    position: absolute;
+    left: 0;
+    transition: width 0.3s ease;
+}
 
 #logo {
     position: absolute;
     left: 0;
+    transition: width 0.3s ease;
+}
+
+.landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+    gap: 100px;
+}
+
+#title {
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 70px;
+}
+
+#pg {
+        font-size: 24px;
+        width: 400px;
+        text-align: center;
+}
+
+.nav-bar #logo:hover {
+    width:80px;
+}
+
+#carti {
+    width:450px;
+    border-radius: 50px;
+    margin-left: 40px;
 }
 
 
 
+#option-tag {
+    margin-top: 40px;
+    font-family:'Gloria Hallelujah', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.recipes {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.text {
+    width:500px;
+    height:500px;
+    padding:30px 30px 40px 40px;
+    border:1px solid black;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
+}
+
+li.ingredients {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.centerer {
+    justify-content: center;
+        align-items: center;
+        display: flex;
+}
+
+.instructions h1 {
+    text-align: center;
+}
+
+.instructions li {
+    font-size: 20px;
+    margin-top: 5px;
+    width: 40vw;
+}
+
+.instructions {
+        height:auto;
+        width: 60vw; /* 90% of viewport width */
+        margin-top:  50px; /* Center the element */
+        padding: 30px;
+
+        border:1px solid black;
+        border-radius: 50px;
+        justify-content: center;
+        align-items: center;
+        -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32); 
+        box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
+
+}
+
+
+.recipe-images {
+    width: auto;
+    height: 200px;
+    transition: height 0.3s ease;
+
+
+}
+
+.recipe-images:hover {
+    width: auto;
+    height: 250px;
+}
+
+
 body {
     height: 100vh; /* Cover full viewport height */
-    margin: 0; /* Remove default margin */
-    background: #FFFFFF; /* Fallback color for older browsers */
-    background: -moz-linear-gradient(135deg, #FFFFFF 0%, #000000 100%); /* Firefox */
-    background: -webkit-linear-gradient(135deg, #FFFFFF 0%, #000000 100%); /* Chrome, Safari */
-    background: linear-gradient(135deg, #FFFFFF 0%, #000000 100%); /* Standard syntax */
-    background-size: cover; /* Cover the entire body area */
-    background-repeat: no-repeat; /* Prevent background repeating */
+margin: 0; /* Remove default margin */
+background: #FFFFFF; /* Fallback color for older browsers */
+background: -moz-linear-gradient(90deg, #FFFFFF 0%, #000000 100%); /* Firefox */
+background: -webkit-linear-gradient(90deg, #FFFFFF 0%, #000000 100%); /* Chrome, Safari */
+background: linear-gradient(90deg, #FFFFFF 0%, #000000 100%); /* Standard syntax */
+background-size: 100% 100%; /* Adjust background size */
+background-repeat: repeat; /* Make the background repeat */
 }
